@@ -1,0 +1,18 @@
+.navbar {
+	a {
+		color: var(--text-color);
+		text-decoration: none;
+		font-size: 12pt;
+		font-family: var(--font);
+		font-weight: 600;
+		padding-bottom: 8px;
+		border-bottom: 3px solid #d7dce1;
+		margin-right: 30px;
+		&:last-child {
+			margin-right: 0;
+		}
+		&:hover {
+			border-bottom: 5px solid var(--color-blue);
+		}
+	}
+}

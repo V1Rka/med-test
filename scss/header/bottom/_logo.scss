@@ -1,0 +1,27 @@
+.bottom__logo {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 100%;
+	img {
+		border-right: 1px solid #d7dce1;
+		padding-right: 26px;
+	}
+	.description {
+		border-right: 1px solid #d7dce1;
+		padding: 0 26px;
+		margin-right: 26px;
+		height: 69px;
+		display: flex;
+		align-items: center;
+		p {
+			font-family: var(--font);
+			color: var(--text-color);
+			font-size: 11pt;
+			line-height: 12pt;
+			margin: 0;
+			max-width: 200px;
+			width: 100%;
+		}
+	}
+}

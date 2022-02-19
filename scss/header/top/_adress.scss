@@ -1,0 +1,13 @@
+.top__adress {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	img {
+		margin-right: 4px;
+	}
+	p {
+		font-family: var(--font);
+		color: white;
+		margin: 0;
+	}
+}

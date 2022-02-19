@@ -1,0 +1,17 @@
+.news {
+	margin-bottom: 85px;
+	.news__swiper-and-list {
+		display: flex;
+		justify-content: space-between;
+		> div {
+			&:first-child {
+				width: 52.5% !important;
+			}
+			&:last-child {
+				width: 47.5% !important;
+			}
+		}
+		@import "swiper/_slider";
+		@import "list/_list";
+	}
+}

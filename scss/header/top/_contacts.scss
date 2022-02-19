@@ -1,0 +1,18 @@
+.top__contacts {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	img {
+		margin-right: 5px;
+	}
+	a {
+		font-family: var(--font);
+		font-weight: 600;
+		color: white;
+		text-decoration: none;
+		font-size: 13pt;
+		&:first-child {
+			margin-right: 30px;
+		}
+	}
+}

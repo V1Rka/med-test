@@ -1,0 +1,41 @@
+header {
+	.top {
+		padding: 6px 0;
+		background-color: var(--main-color);
+		> div {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			@import "top/_lang";
+			@import "top/_adress";
+			@import "top/_contacts";
+			.top__search-visually {
+				display: flex;
+				justify-content: flex-end;
+				align-items: center;
+				.search {
+					margin-right: 20px;
+				}
+			}
+		}
+	}
+	.bottom {
+		background-color: white;
+		padding: 15px 0;
+		box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.2);
+		> div {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+			@import "bottom/_logo";
+			.bottom__navbar-appeal {
+				width: 85%;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				@import "bottom/_navbar";
+				@import "bottom/_appeal";
+			}
+		}
+	}
+}

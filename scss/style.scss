@@ -1,0 +1,35 @@
+@import "_colors";
+@import "_btns";
+
+body {
+	--font: "Proxima Nova Rg";
+	--font-sb: "Proxima Nova Lt";
+	min-height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: var(--font);
+}
+
+.swiper-button-next {
+	left: 96px;
+	right: auto;
+	bottom: 41px;
+	top: auto;
+	&:after {
+		content: "";
+	}
+}
+.swiper-button-prev {
+	top: auto;
+	bottom: 41px;
+	left: 40px;
+	&:after {
+		content: "";
+	}
+}
+
+@import "header/_header";
+@import "sec-links/_links";
+@import "sec-news/_news";
+@import "sec-resources/_resources";
+@import "footer/_main";
