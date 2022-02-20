@@ -1,0 +1,26 @@
+section {
+	&.title-page {
+		&.bg {
+			width: 100%;
+			background: linear-gradient(90deg, #ffffffc4, transparent 70%);
+			padding: 44px 0;
+			margin-bottom: 265px;
+			h1 {
+				margin: 9px 0 16px 25px;
+				font-weight: bold;
+				line-height: 21pt;
+				font-size: 26pt;
+			}
+		}
+	}
+	&.big-container {
+		width: 1232px;
+		margin: 0 auto;
+		padding: 0 15px;
+	}
+}
+.liner-down {
+	width: 53px;
+	height: 3px;
+	background-color: var(--main-color2);
+}

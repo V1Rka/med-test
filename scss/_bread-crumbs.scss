@@ -1,0 +1,17 @@
+.bread-crumbs {
+	width: 100%;
+	background-color: var(--main-color2);
+	padding: 6px 0;
+	> div {
+		* {
+			margin-right: 4px;
+		}
+		a {
+			color: white;
+			text-decoration: none;
+			&.word {
+				border-bottom: 1px solid white;
+			}
+		}
+	}
+}

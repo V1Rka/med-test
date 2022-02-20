@@ -5,31 +5,22 @@ body {
 	--font: "Proxima Nova Rg";
 	--font-sb: "Proxima Nova Lt";
 	min-height: 100vh;
-	background-size: cover;
+	background-size: auto;
 	background-repeat: no-repeat;
 	font-family: var(--font);
 }
 
-.swiper-button-next {
-	left: 96px;
-	right: auto;
-	bottom: 41px;
-	top: auto;
-	&:after {
-		content: "";
-	}
-}
-.swiper-button-prev {
-	top: auto;
-	bottom: 41px;
-	left: 40px;
-	&:after {
-		content: "";
-	}
-}
+@import "_bread-crumbs";
+@import "_swiper";
+@import "_title";
+@import "_tabs";
+@import "_form";
+@import "_scroll";
 
 @import "header/_header";
 @import "sec-links/_links";
 @import "sec-news/_news";
 @import "sec-resources/_resources";
+@import "electronic-appeals/_main";
+@import "gos-by/_main";
 @import "footer/_main";

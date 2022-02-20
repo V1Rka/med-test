@@ -1,0 +1,33 @@
+.electronic-appeals {
+	.main {
+		background-color: white;
+		box-shadow: 0px 4px 26px -1px rgba(34, 60, 80, 0.2);
+		.liner-down {
+			margin-bottom: 13px;
+		}
+		.title {
+			color: var(--text-color);
+			font-weight: 600;
+			margin-left: 20px;
+			font-size: 17pt;
+			margin-bottom: 3px;
+		}
+		h2 {
+			color: var(--text-color);
+			font-weight: 600;
+			font-size: 17pt;
+			margin-bottom: 3px;
+		}
+		p {
+			color: var(--text-color);
+			font-size: 11pt;
+			line-height: 13pt;
+		}
+		.tab {
+			width: 89%;
+		}
+		.scroll {
+			max-height: 530px;
+		}
+	}
+}

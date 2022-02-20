@@ -1,0 +1,24 @@
+.scroll {
+	height: 100%;
+	overflow-y: auto;
+	position: relative;
+	.bottom-shadow {
+		position: sticky;
+		width: 100%;
+		height: 100px;
+		bottom: 0;
+		background: linear-gradient(0deg, #fff 8%, #ffffffa6, transparent 75%);
+	}
+}
+
+.scroll::-webkit-scrollbar {
+	width: 12px;
+}
+.scroll::-webkit-scrollbar-track {
+	background: #e4f0f2;
+}
+.scroll::-webkit-scrollbar-thumb {
+	background-color: var(--main-color-hover); /* цвет плашки */
+	border-radius: 20px; /* закругления плашки */
+	width: 14px; /* padding вокруг плашки */
+}

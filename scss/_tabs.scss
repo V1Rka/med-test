@@ -1,0 +1,30 @@
+.tabs {
+	.head {
+		width: 100%;
+		border-bottom: 3px solid var(--main-color);
+		padding: 26px 0 15px;
+		margin-bottom: 31px;
+
+		a {
+			color: var(--text-color);
+			text-decoration: none;
+			font-weight: 600;
+			font-size: 14pt;
+			margin-right: 30px;
+			padding: 0 17px 14px;
+			&:hover {
+				color: var(--main-color);
+			}
+			&.active {
+				color: var(--main-color);
+				border-bottom: 9px solid var(--main-color);
+			}
+		}
+	}
+	.tab {
+		display: none;
+		&.active {
+			display: block;
+		}
+	}
+}

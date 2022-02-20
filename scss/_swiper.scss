@@ -1,0 +1,17 @@
+.swiper-button-next {
+	left: 96px;
+	right: auto;
+	bottom: 41px;
+	top: auto;
+	&:after {
+		content: "";
+	}
+}
+.swiper-button-prev {
+	top: auto;
+	bottom: 41px;
+	left: 40px;
+	&:after {
+		content: "";
+	}
+}
