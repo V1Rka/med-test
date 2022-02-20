@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>УП БелМедТехника</title>
+	<link href="libraries/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+	<link href="fonts//ProximaNova/stylesheet.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body style="background-image: url(images/bg/electronic_appeals.png);">
+	<header>
+		<div class="top">
+			<div class="container">
+				<div class="top__langs">
+					<a href="#" title="RU">
+						<p>RU</p>
+					</a>
+					<a href="#" title="BY">
+						<p>BY</p>
+					</a>
+					<a href="#" title="EN">
+						<p>EN</p>
+					</a>
+				</div>
+				<div class="top__adress">
+					<img src="images/icons/location.png" alt="Локация">
+					<p>Главный офис: г. Минск, ул. Могилевская, 16/4</p>
+				</div>
+				<div class="top__contacts">
+					<a href="tel:+375173890100" title="+375-17-389-0100">
+						<img src="images/icons/phone.png" alt="Телефон">
+						<span>+375-17-389-0100</span>
+					</a>
+					<a href="fax:+375172686699" title="+375-17-268-6699">
+						<img src="images/icons/fax.png" alt="Факс">
+						<span>+375-17-268-6699</span>
+					</a>
+				</div>
+				<div class="top__search-visually">
+					<div class="search">
+						<a href="#" title="Поиск">
+							<img src="images/icons/search.png" alt="Поиск">
+						</a>
+					</div>
+					<div class="visually">
+						<a href="#" title="Версия для слабовидящих">
+							<img src="images/icons/visually.png" alt="Версия для слабовидящих">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="container">
+				<div class="bottom__logo">
+					<img src="images/logo.png" alt="Логотип">
+					<div class="description">
+						<p>Производственно - торговое республиканское унитарное предприятие</p>
+					</div>
+				</div>
+				<div class="bottom__navbar-appeal">
+					<div class="navbar">
+						<a href="#" title="О компании">О компании</a>
+						<a href="#" title="Гос.закупки">Гос.закупки</a>
+						<a href="#" title="Контакты">Контакты</a>
+					</div>
+					<a href="/electronic_appeals.html" class="apeal-link">
+						<div class="appeal">
+							<img src="images/icons/appeal.png" alt="Обращение">
+							<div class="text">
+								<span>электронное</span>
+								<span>обращение</span>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="title-page bg">
+		<div class="container">
+			<h1>Электронное обращение</h1>
+			<div class="liner-down"></div>
+		</div>
+	</section>
+	<section class="electronic-appeals big-container">
+		<div class="bread-crumbs">
+			<div class="container">
+				<a href="/" title="Главная">
+					<img src="images/icons/home.png" alt="Главная">
+				</a>
+				<img src="images/icons/right-arrows-breed.png" alt="Следующая страница">
+				<a class="word" href="/electronic_appeals" title="Электронное обращение">
+					Электронное обращение
+				</a>
+			</div>
+		</div>
+		<div class="main">
+			<div class="container">
+				<div class="tabs">
+					<div class="head">
+						<a class="active" href="javascript:" onclick="SwitchingTabs(event)" id="tab_window1"
+							title="Физическое лицо">Физическое лицо</a>
+						<a href="javascript:" id="tab_window2" onclick="SwitchingTabs(event)" title="Юридическое лицо">Юридическое
+							лицо</a>
+					</div>
+					<div class="body">
+						<div class="row">
+							<div class="col-5">
+								<div class="tab active" id="window1">
+									<div class="title">Напишите нам сообщение</div>
+									<div class="liner-down"></div>
+									<p>Заполните форму ниже и мы ответим вам в ближайшее время</p>
+									<form action="">
+										<div class="item name">
+											<input type="text" name="name" placeholder="Ваше имя">
+										</div>
+										<div class="item email">
+											<input type="text" name="email" placeholder="Ваш e-mail">
+										</div>
+										<div class="item message">
+											<textarea name="message" id="" rows="5" placeholder="Ваше сообщение или вопрос"></textarea>
+										</div>
+										<div class="item checkbox">
+											<label class="checkbox">
+												<input class="checkbox__input" type="checkbox">
+												<span class="checkbox__label">
+													<span class="checkbox__text">Согласие на обработку персональных данных</span>
+												</span>
+											</label>
+										</div>
+										<input type="submit" class="btn-big">
+									</form>
+								</div>
+								<div class="tab" id="window2">
+									<div class="title">Напишите нам сообщение</div>
+									<div class="liner-down"></div>
+									<p>Заполните форму ниже и мы ответим вам в ближайшее время</p>
+									<form action="">
+										<div class="item name">
+											<input type="text" name="name" placeholder="Название компании">
+										</div>
+										<div class="item email">
+											<input type="text" name="email" placeholder="Контакнтный e-mail">
+										</div>
+										<div class="item message">
+											<textarea name="message" id="" rows="5" placeholder="Ваше сообщение или вопрос"></textarea>
+										</div>
+										<div class="item checkbox">
+											<label class="checkbox">
+												<input class="checkbox__input" type="checkbox">
+												<span class="checkbox__label">
+													<span class="checkbox__text">Согласие на обработку персональных данных</span>
+												</span>
+											</label>
+										</div>
+										<input type="submit" class="btn-big">
+									</form>
+								</div>
+							</div>
+							<div class="col-7">
+								<div class="scroll">
+									<h2>Уважаемые пользователи услуг!</h2>
+									<p> Вопросы о порядке оказания услуг объектами почтовой связи, их стоимости, а также получение
+										дополнительной информации о работе объектов почтовой связи и другой контактной информации, Вы можете
+										получить по телефону Контакт-центра РУП «Белпочта» 154 (МТС +375 33 3000 154, А1 +375 44 5900 154).
+										Номер телефона 154 действует по всей территории Республики Беларусь. Со стационарного телефона
+										звонок бесплатный, с мобильного телефона стоимость уточняйте у мобильного оператора. Также получить
+										ответы на интересующие Вас вопросы можно при обращении к рубрике «Вопрос специалисту».</p>
+
+									<p>Возможно, Вы найдете ответы на возникшие у Вас вопросы здесь: «Часто задаваемые вопросы».</p>
+
+									<p>Розыск регистрируемых почтовых отправлений в соответствии со ст. 13 Закона Республики Беларусь «О
+										почтовой связи», пунктов 151, 162, 163,165-166 Правил оказания услуг почтовой связи общего
+										пользования, утвержденных постановлением Совета Министров Республики Беларусь от 07.09.2004 № 1111
+										производится с предъявлением квитанции об отправке регистрируемого почтового отправления и
+										документа, удостоверяющего личность гражданина, подающего заявление (обращение). Заявление о розыске
+										регистрируемого почтового отправления можно подать в любом объекте почтовой связи (форма заявления
+										на розыск регистрируемого почтового отправления).</p>
+
+									<p>Юридическое лицо при подаче заявления о розыске регистрируемого почтового отправления предоставляет
+										оператору почтовой связи заявление (составленное в соответствии с предлагаемой формой) содержащее
+										информацию о наименовании и адресе юридического лица, фамилию, собственное имя, отчество (если
+										таковое имеется) либо инициалы руководителя или лица, уполномоченного в установленном порядке
+										подписывать обращения, личную подпись руководителя или лица, уполномоченного в установленном порядке
+										подписывать обращения.</p>
+
+									<p>Розыск простых отправлений письменной корреспонденции (простых почтовых карточек, писем,
+										бандеролей,
+										мелких пакетов) прием которых осуществлялся оператором почтовой связи без выдачи пользователю услуг
+										почтовой связи квитанции о приеме почтового отправления, а вручение осуществлялось путем опускания в
+										абонентский почтовый шкаф (индивидуальный почтовый ящик адресата) без расписки адресата в получении
+										почтового отправления РУП «Белпочта» не осуществляет.</p>
+
+									<p>Электронные обращения граждан, в том числе индивидуальных предпринимателей (далее — граждан), и
+										юридических лиц в адрес РУП «Белпочта» направляются и рассматриваются в соответствии с требованиями
+										Закона Республики Беларусь от 18.07.2011 № 300-З «Об обращениях граждан и юридических лиц».</p>
+									<div class="bottom-shadow"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="up">
+				<div class="left">
+					<div class="logo">
+						<a href="#">
+							<img src="images/footer/logo-footer.png" alt="Логотип">
+						</a>
+					</div>
+					<div class="items">
+						<a href="#" title="Сайт президента" class="item">
+							<img src="images/footer/footer-img1.png" alt="Сайт президента">
+							<span>Сайт президента Республики Беларусь</span>
+						</a>
+						<a href="#" title="Министерство промышленности" class="item">
+							<img src="images/footer/footer-img2.png" alt="Министерство промышленности">
+							<span>Министерство промышленности РБ</span>
+						</a>
+						<a href="#" title="Министерство здравоохранения" class="item">
+							<img src="images/footer/footer-img3.png" alt="Министерство здравоохранения">
+							<span>Министерство здравоохранения РБ</span>
+						</a>
+					</div>
+				</div>
+				<div class="center">
+					<div>
+						<div class="title">
+							Клиентам
+						</div>
+						<div class="links">
+							<a href="#" title="Главная"><span class="active">Главная</span></a>
+							<a href="#" title="О компании"><span>О компании</span></a>
+							<a href="#" title="Продукция"><span>Продукция</span></a>
+							<a href="#" title="Услуги"><span>Услуги</span></a>
+							<a href="#" title="Выставки"><span>Выставки</span></a>
+							<a href="#" title="Контакты"><span>Контакты</span></a>
+						</div>
+					</div>
+					<div class="map-site">
+						<a href="#" title="Карта сайта">Карта сайта</a>
+					</div>
+				</div>
+				<div class="right">
+					<div class="title">
+						Контактные данные
+					</div>
+					<div class="right__up">
+						<div class="right__up-left">
+							<div class="adress">
+								<img src="images/footer/footer-location.png" alt="Адрес">
+								<span>Главный офис: г. Минск, ул. Могилевская, 16/4</span>
+							</div>
+							<div class="email">
+								<a href="mailto:info@belmt.com" title="info@belmt.com">
+									<img src="images/footer/footer-email.png" alt="Адрес">
+									<span>info@belmt.com</span>
+								</a>
+							</div>
+							<div class="politics">
+								<a href="#" title="Политика конфиденциальности">
+									<span>Политика конфиденциальности</span>
+								</a>
+							</div>
+						</div>
+						<div class="right__up-right">
+							<div class="phone">
+								<a href="tel:+375173890100" title="+375-17-389-0100">
+									<img src="images/footer/footer-phone.png" alt="Телефон">
+									<span>+375-17-389-0100</span>
+								</a>
+							</div>
+							<div class="fax">
+								<a href="fax:+375172686699" title="+375-17-268-6699">
+									<img src="images/footer/footer-fax.png" alt="Факс">
+									<span>+375-17-268-6699</span>
+								</a>
+							</div>
+							<div class="social">
+								<a href="#" title="instagram">
+									<img src="images/footer/instagram.png" alt="instagram">
+								</a>
+								<a href="#" title="youtube">
+									<img src="images/footer/youtube.png" alt="youtube">
+								</a>
+								<a href="#" title="facebook">
+									<img src="images/footer/facebook.png" alt="facebook">
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="right__down">
+						<input type="text" class="search" placeholder="Поиск по сайту">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer__border"></div>
+		<div class="container">
+			<div class="down">
+				<div>© УП "Белмедтехника" 1964-2021 .</div>
+				<div>Производственно - торговое республиканское унитарное предприятие</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="libraries/jqury/jq.min.js"></script>
+	<script src="libraries/bootstrap/js/bootstrap.min.js"></script>
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+	<script src="js/tabs.js"></script>
+</body>
+
+</html>
