@@ -9,6 +9,27 @@ body {
 	background-repeat: no-repeat;
 	font-family: var(--font);
 }
+ul {
+	padding-left: 10px;
+	li {
+		color: var(--text-color);
+		font-size: 14pt;
+		line-height: 16pt;
+		list-style-type: none;
+		position: relative;
+		margin-bottom: 30px;
+		&::before {
+			content: "";
+			width: 5px;
+			height: 6px;
+			position: absolute;
+			top: 6px;
+			left: -10px;
+			background-image: url(/images/arrow-li.png);
+			background-size: cover;
+		}
+	}
+}
 
 @import "_bread-crumbs";
 @import "_swiper";
@@ -25,4 +46,5 @@ body {
 @import "gos-by/_main";
 @import "customer/_main";
 @import "career/_main";
+@import "about/_main";
 @import "footer/_main";
