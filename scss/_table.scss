@@ -1,0 +1,31 @@
+table {
+	margin-top: 30px;
+	thead {
+		tr {
+			background-color: #edf7f9;
+		}
+	}
+	tbody {
+		tr {
+			background-color: #fff;
+			&:hover td,
+			&.active td {
+				background-color: #e2fade;
+			}
+		}
+	}
+	td {
+		width: 70%;
+		&:first-child {
+			width: 10%;
+		}
+	}
+	.sort {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+		a {
+			min-width: 20px;
+		}
+	}
+}
