@@ -3,6 +3,8 @@
 	background-color: var(--main-color2);
 	padding: 6px 0;
 	> div {
+		display: flex;
+		align-items: center;
 		* {
 			margin-right: 4px;
 		}
@@ -10,7 +12,11 @@
 			color: white;
 			text-decoration: none;
 			&.word {
-				border-bottom: 1px solid white;
+				&:hover {
+					color: var(--main-color-hover);
+					margin-bottom: -1px;
+					border-bottom: 1px solid var(--main-color-hover);
+				}
 			}
 		}
 	}

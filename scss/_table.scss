@@ -23,9 +23,11 @@ table {
 	.sort {
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 		width: 100%;
 		a {
 			min-width: 20px;
+			max-height: 12px;
 		}
 	}
 }

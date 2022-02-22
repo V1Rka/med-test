@@ -34,9 +34,18 @@
 					color: black;
 					margin-bottom: 3px;
 					font-size: 11pt;
-
-					img {
-						margin-right: 12px;
+					display: flex;
+					align-items: center;
+					div {
+						margin-right: 13px;
+					}
+					&:hover {
+						color: var(--main-color-hover);
+						div {
+							&::before {
+								background-position: 0 -89px;
+							}
+						}
 					}
 				}
 			}

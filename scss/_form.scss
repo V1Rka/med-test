@@ -5,10 +5,11 @@ form {
 		&.email {
 			&::before {
 				content: "";
-				height: 27px;
+				height: 21px;
 				width: 27px;
 				position: absolute;
-				background-image: url(/images/icons/form/form-email.png);
+				background-image: url(/images/sprite/icons.png);
+				background-position: -76px -181px;
 				background-repeat: no-repeat;
 				top: 13px;
 				left: 16px;
@@ -20,7 +21,8 @@ form {
 				height: 27px;
 				width: 27px;
 				position: absolute;
-				background-image: url(/images/icons/form/form-name.png);
+				background-image: url(/images/sprite/icons.png);
+				background-position: -76px -154px;
 				background-repeat: no-repeat;
 				top: 10px;
 				left: 16px;
@@ -32,7 +34,8 @@ form {
 				height: 27px;
 				width: 27px;
 				position: absolute;
-				background-image: url(/images/icons/form/form-phone.png);
+				background-image: url(/images/sprite/icons.png);
+				background-position: -76px -202px;
 				background-repeat: no-repeat;
 				top: 12px;
 				left: 16px;
@@ -41,10 +44,11 @@ form {
 		&.telegram {
 			&::before {
 				content: "";
-				height: 27px;
+				height: 23px;
 				width: 27px;
 				position: absolute;
-				background-image: url(/images/icons/form/form-telegram.png);
+				background-image: url(/images/sprite/icons.png);
+				background-position: -76px -229px;
 				background-repeat: no-repeat;
 				top: 13px;
 				left: 16px;
@@ -56,7 +60,8 @@ form {
 				height: 27px;
 				width: 27px;
 				position: absolute;
-				background-image: url(/images/icons/form/form-skype.png);
+				background-image: url(/images/sprite/icons.png);
+				background-position: -76px -252px;
 				background-repeat: no-repeat;
 				top: 12px;
 				left: 16px;
@@ -96,6 +101,10 @@ form {
 					color: var(--main-color-hover);
 					border: 1px solid var(--main-color-hover);
 					cursor: pointer;
+					&:hover {
+						background-color: var(--main-color-hover);
+						color: white;
+					}
 				}
 			}
 
@@ -106,10 +115,11 @@ form {
 			}
 			&::before {
 				content: "";
-				height: 27px;
-				width: 27px;
+				height: 26px;
+				width: 28px;
 				position: absolute;
-				background-image: url(/images/icons/form/form-file.png);
+				background-image: url(/images/sprite/icons.png);
+				background-position: -76px -279px;
 				background-repeat: no-repeat;
 				top: 10px;
 				left: 16px;
