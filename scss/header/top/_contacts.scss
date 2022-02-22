@@ -2,17 +2,24 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	img {
-		margin-right: 5px;
-	}
+
 	a {
 		font-family: var(--font);
 		font-weight: 600;
 		color: white;
+		display: flex;
+		align-items: center;
 		text-decoration: none;
 		font-size: 13pt;
 		&:first-child {
 			margin-right: 30px;
+		}
+		&:hover {
+			span {
+				color: #aed2a7;
+				border-bottom: 1px solid #aed2a770;
+				margin-bottom: -1px;
+			}
 		}
 	}
 }

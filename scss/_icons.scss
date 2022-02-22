@@ -1,0 +1,81 @@
+.icon-location {
+	width: 17px;
+	height: 23px;
+	position: relative;
+	margin-right: 5px;
+	&::before {
+		content: "";
+		position: absolute;
+		width: 17px;
+		height: 23px;
+		background-image: url(/images/sprite/icon-head-foot.png);
+		background-position: 0 0;
+	}
+}
+.icon-phone {
+	width: 21px;
+	height: 21px;
+	position: relative;
+	margin-right: 5px;
+	&::before {
+		content: "";
+		position: absolute;
+		width: 21px;
+		height: 21px;
+		background-image: url(/images/sprite/icon-head-foot.png);
+		background-position: 0 57px;
+	}
+}
+.icon-fax {
+	width: 21px;
+	height: 21px;
+	position: relative;
+	margin-right: 5px;
+	&::before {
+		content: "";
+		position: absolute;
+		width: 21px;
+		height: 21px;
+		background-image: url(/images/sprite/icon-head-foot.png);
+		background-position: 0 21px;
+	}
+}
+
+.icon-visually {
+	width: 38px;
+	height: 38px;
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		width: 38px;
+		height: 38px;
+		background-image: url(/images/sprite/icon-head-foot.png);
+		background-position: 38px 0;
+	}
+}
+
+.icon {
+	&:hover {
+		.icon-location {
+			&::before {
+				background-position: -17px 0;
+			}
+		}
+		.icon-phone {
+			&::before {
+				background-position: -21px 57px;
+			}
+		}
+		.icon-fax {
+			&::before {
+				background-position: -21px 21px;
+			}
+		}
+		.icon-visually {
+			&::before {
+				background-position: 38px 42px;
+			}
+		}
+	}
+}
