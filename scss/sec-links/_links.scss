@@ -8,15 +8,19 @@
 		display: flex;
 		.links__purchases {
 			--color: #007263;
+			--hover-arrow: -11px -80px;
 		}
 		.links__wholesale-trade {
 			--color: #31a08b;
+			--hover-arrow: -11px -80px;
 		}
 		.links__retail-trade {
 			--color: #aed2a7;
+			--hover-arrow: 0 -89px;
 		}
 		.links__services {
 			--color: #9bd1ef;
+			--hover-arrow: -11px -89px;
 		}
 		.link {
 			background-color: white;
@@ -35,6 +39,9 @@
 					margin-bottom: 10px;
 					a {
 						background-color: var(--color);
+						&:hover {
+							box-shadow: 0px 0px 15px 2px rgba(34, 60, 80, 0.2) inset;
+						}
 					}
 				}
 				.title {
@@ -61,6 +68,14 @@
 					color: var(--color-text);
 					text-decoration: none;
 					margin: 3px 0;
+					&:hover {
+						color: var(--color);
+						div {
+							&:before {
+								background-position: var(--hover-arrow);
+							}
+						}
+					}
 				}
 			}
 		}

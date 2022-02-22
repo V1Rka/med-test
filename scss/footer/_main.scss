@@ -14,6 +14,12 @@ footer {
 		font-size: 10.5pt;
 		margin-bottom: 12px;
 	}
+	.social {
+		display: flex;
+		a {
+			margin-right: 9px;
+		}
+	}
 	.up {
 		display: flex;
 		.left {
@@ -32,6 +38,11 @@ footer {
 					justify-content: flex-start;
 					text-decoration: none;
 					margin-bottom: 10px;
+					color: white;
+
+					&:hover {
+						color: var(--main-color-hover);
+					}
 					&:last-child {
 						margin: 0;
 					}
@@ -71,13 +82,23 @@ footer {
 			width: 43.6%;
 			.right__up {
 				display: flex;
+				.adress {
+					display: flex;
+					align-items: flex-start;
+				}
 				a,
 				span {
 					color: white;
 					text-decoration: none;
 				}
-				img {
-					margin-right: 7px;
+				a {
+					display: flex;
+					align-items: center;
+					&:hover {
+						span {
+							color: var(--main-color-hover);
+						}
+					}
 				}
 				.politics {
 					a,

@@ -1,80 +1,220 @@
+.sprite {
+	position: relative;
+	&:before {
+		content: "";
+		position: absolute;
+		background-image: url(/images/sprite/icons.png);
+	}
+}
 .icon-location {
 	width: 17px;
 	height: 23px;
-	position: relative;
 	margin-right: 5px;
 	&::before {
-		content: "";
-		position: absolute;
 		width: 17px;
 		height: 23px;
-		background-image: url(/images/sprite/icon-head-foot.png);
 		background-position: 0 0;
 	}
 }
 .icon-phone {
 	width: 21px;
 	height: 21px;
-	position: relative;
 	margin-right: 5px;
 	&::before {
-		content: "";
-		position: absolute;
 		width: 21px;
 		height: 21px;
-		background-image: url(/images/sprite/icon-head-foot.png);
-		background-position: 0 57px;
+		background-position: 0 -23px;
 	}
 }
 .icon-fax {
 	width: 21px;
 	height: 21px;
-	position: relative;
 	margin-right: 5px;
 	&::before {
-		content: "";
-		position: absolute;
 		width: 21px;
 		height: 21px;
-		background-image: url(/images/sprite/icon-head-foot.png);
-		background-position: 0 21px;
+		background-position: 0 -59px;
 	}
 }
 
 .icon-visually {
 	width: 38px;
 	height: 38px;
-	position: relative;
 	&::before {
-		content: "";
-		position: absolute;
 		width: 38px;
 		height: 38px;
-		background-image: url(/images/sprite/icon-head-foot.png);
-		background-position: 38px 0;
+		background-position: 0 -154px;
+	}
+}
+.icon-search-min-white {
+	width: 24px;
+	height: 24px;
+	&::before {
+		width: 24px;
+		height: 24px;
+		background-position: 0 -259px;
+	}
+}
+.icon-appeal {
+	width: 34px;
+	height: 34px;
+	margin-right: 8px;
+	&::before {
+		width: 34px;
+		height: 34px;
+		background-position: 0 -192px;
+	}
+}
+.icon-email-min {
+	width: 20px;
+	height: 15px;
+	margin-right: 8px;
+	&::before {
+		width: 20px;
+		height: 15px;
+		background-position: 0 -44px;
+	}
+}
+
+.icon-instagram {
+	width: 38px;
+	height: 38px;
+	&::before {
+		width: 38px;
+		height: 38px;
+		background-position: -42px -76px;
+	}
+}
+.icon-youtube {
+	width: 38px;
+	height: 38px;
+	&::before {
+		width: 38px;
+		height: 38px;
+		background-position: -42px -38px;
+	}
+}
+.icon-facebook {
+	width: 38px;
+	height: 38px;
+	&::before {
+		width: 38px;
+		height: 38px;
+		background-position: -42px 0;
+	}
+}
+.icon-arrow-right-min {
+	width: 11px;
+	height: 9px;
+	&::before {
+		width: 11px;
+		height: 9px;
+		background-position: 0 -80px;
+	}
+}
+.icon-arrow-right-big-white {
+	width: 34px;
+	height: 18px;
+	&::before {
+		width: 34px;
+		height: 18px;
+		background-position: 0 -118px;
+	}
+}
+.icon-arrow-left-big-white {
+	width: 34px;
+	height: 18px;
+	&::before {
+		width: 34px;
+		height: 18px;
+		background-position: 0 -136px;
+	}
+}
+.icon-arrow-right-big-green {
+	width: 34px;
+	height: 18px;
+	&::before {
+		width: 34px;
+		height: 18px;
+		background-position: -36px -118px;
+	}
+}
+.icon-arrow-left-big-green {
+	width: 34px;
+	height: 18px;
+	&::before {
+		width: 34px;
+		height: 18px;
+		background-position: -34px -136px;
 	}
 }
 
 .icon {
 	&:hover {
+		.icon-arrow-right-big-white {
+			&::before {
+				background-position: -68px -118px;
+			}
+		}
+		.icon-arrow-right-big-green {
+			&::before {
+				background-position: -70px -118px;
+			}
+		}
+		.icon-arrow-left-big-white,
+		.icon-arrow-left-big-green {
+			&::before {
+				background-position: -68px -136px;
+			}
+		}
 		.icon-location {
 			&::before {
-				background-position: -17px 0;
+				background-position: -16px 0;
 			}
 		}
 		.icon-phone {
 			&::before {
-				background-position: -21px 57px;
+				background-position: -21px -23px;
 			}
 		}
 		.icon-fax {
 			&::before {
-				background-position: -21px 21px;
+				background-position: -21px -59px;
 			}
 		}
 		.icon-visually {
 			&::before {
-				background-position: 38px 42px;
+				background-position: -38px -154px;
+			}
+		}
+		.icon-search-min-white {
+			&::before {
+				background-position: -50px -259px;
+			}
+		}
+		.icon-appeal {
+			&::before {
+				background-position: -34px -192px;
+			}
+		}
+		.icon-email-min {
+			&::before {
+				background-position: -20px -44px;
+			}
+		}
+		.icon-instagram {
+			&::before {
+				background-position: -80px -76px;
+			}
+		}
+		.icon-youtube {
+			&::before {
+				background-position: -80px -38px;
+			}
+		}
+		.icon-facebook {
+			&::before {
+				background-position: -80px 0;
 			}
 		}
 	}
